@@ -1,7 +1,7 @@
 # Multilingual-Text-Recognization-and-Translation 
---
+-
 This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
---
+-
 *Code Flow*
 -
 * Install required libraries.
