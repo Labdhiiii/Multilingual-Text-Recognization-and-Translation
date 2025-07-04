@@ -2,6 +2,7 @@
 This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
 ---
 *Code Flow*
+-
 * Install required libraries.
 * Initialize the OCR reader with support for multiple languages (e.g., Hindi and English).
 * Load the image that contains text using an image handling library.
