@@ -1,5 +1,5 @@
-# Multilingual-Text-Recognization-and-Translation
-This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
+# Multilingual-Text-Recognization-and-Translation: This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
+---
 *Code Flow*
 * Install required libraries.
 * Initialize the OCR reader with support for multiple languages (e.g., Hindi and English).
@@ -18,7 +18,6 @@ This notebook outlines a simple pipeline for recognizing and translating multili
 
 ---
 *Users Guide*
-Step-by-step:
 🔁 Upload any image (with text) to Colab.
 
 🔧 Change the file path to your image:
