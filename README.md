@@ -1,4 +1,5 @@
-# Multilingual-Text-Recognization-and-Translation: This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
+# Multilingual-Text-Recognization-and-Translation 
+This notebook outlines a simple pipeline for recognizing and translating multilingual text from images using OCR and translation models.
 ---
 *Code Flow*
 * Install required libraries.
@@ -18,16 +19,11 @@
 
 ---
 *Users Guide*
-🔁 Upload any image (with text) to Colab.
-
-🔧 Change the file path to your image:
-
-im = Image.open('/content/your_image_name.png')
-bounds = reader.readtext('/content/your_image_name.png', detail=1)
-✏️ Change the languages you want to detect:
-
-reader = easyocr.Reader(['hi', 'en'])  # change to ['ta', 'bn'] etc.
-🌐 Pick your target language when prompted — like en, fr, ja, etc.
+-
+1. Upload any image (with text) to Colab.
+2. Change the file path to your image:
+3. Change the languages you want to detect: reader = easyocr.Reader(['hi', 'en'])  # change to ['ta', 'bn'] etc.
+4. Pick your target language when prompted — like en, fr, ja, etc.
 
 🧾 Done! You’ll see original text and translated text side-by-side.
 
